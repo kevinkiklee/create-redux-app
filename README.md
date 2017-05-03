@@ -38,6 +38,38 @@ This project is a boilerplate for a React/Redux, and has been bootstrapped with 
 - redux-thunk
 - styled-components
 
+## Structure
+Many sample files have been included for easy modification.
+
+- `/src`
+  - contains `index.js` entry file
+
+- `/src/actions`
+  - for Redux actions files
+  - a sample `dataActions` has been included
+
+- `/src/assets`
+  - contains assets, such as images
+  - a sample SVG logo has been included
+
+- `/src/components`
+  - contains React `App` and `Root`components
+  - sample `Data`, `DataContainer` and `Header` components have been included
+
+- `/src/reducers`
+  - contains React `RootReducer`
+  - a sample `DataReducer` has been included
+
+- `/src/store`
+  - contains Redux `store`
+
+- `/src/styles`
+  - contains `reset.css`
+
+- `/src/utils`
+  - contains a sample `fetchUtil` for fetching a JSON
+  - contains a sample `selectors`
+
 ## Notes
 
 - `styled-components` is used for CSS management.  More information can be found [Here](https://github.com/styled-components/styled-components)
