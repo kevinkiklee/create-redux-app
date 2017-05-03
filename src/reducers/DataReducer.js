@@ -7,7 +7,7 @@ const DataReducer = (state = initialState, action) => {
 
   switch (action.type) {
     case RECEIVE_DATA:
-      return Object.assign({}, state, action.texts);
+      return Object.assign({}, state, action.data);
 
     default:
       return state;
