@@ -67,7 +67,8 @@ Many sample files have been included for easy modification.
   - contains `reset.css`
 
 - `/src/utils`
-  - contains a sample `fetchUtil` for fetching a JSON
+  - contains a sample `fetchUtil` for fetching a JSON file
+    - a sample `data.json` file can be found in `/public/data` folder
   - contains a sample `selectors`
 
 ## Notes
