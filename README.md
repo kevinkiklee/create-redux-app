@@ -1,6 +1,6 @@
 # Create-Redux-App
 
-This project is a boilerplate for a React/Redux, and has been bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project is a boilerplate for a React/Redux frontend, and has been bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## Usage / Deployment
 
@@ -20,7 +20,7 @@ This project is a boilerplate for a React/Redux, and has been bootstrapped with 
 
   ```
   git init
-  heroku create $APP_NAME --buildpack https://github.com/mars/create-react-app-buildpack.git
+  1
   git add .
   git commit -m "Initial Commit"
   git push heroku master
@@ -34,8 +34,8 @@ This project is a boilerplate for a React/Redux, and has been bootstrapped with 
 - react-dom
 - react-redux
 - redux
-- redux-logger
 - redux-thunk
+- redux-logger
 - styled-components
 
 ## Structure

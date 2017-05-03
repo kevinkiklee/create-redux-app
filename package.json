@@ -1,6 +1,6 @@
 {
   "name": "create-redux-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "react": "^15.5.4",
@@ -17,7 +17,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
 }
