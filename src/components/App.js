@@ -6,6 +6,10 @@ import Header from './Page/Header';
 import DataContainer from './Data/DataContainer';
 
 const AppWrapper = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 `;
 
