@@ -26,3 +26,18 @@ This project is a boilerplate for a React/Redux, and has been bootstrapped with 
   git push heroku master
   heroku open
   ```
+  For more information about the Heroku create-react-app buildpack, please visit [Here](https://github.com/mars/create-react-app-buildpack).
+
+## Implementation
+
+- react
+- react-dom
+- react-redux
+- redux
+- redux-logger
+- redux-thunk
+- styled-components
+
+## Notes
+
+- `styled-components` is used for CSS management.  More information can be found [Here](https://github.com/styled-components/styled-components)
