@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const DataWrapper = styled.div`
+const DataWrapper = styled.section`
   font-size: 16px;
   width: 1000px;
   margin: 25px auto;
