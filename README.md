@@ -20,7 +20,7 @@ This project is a boilerplate for a React/Redux frontend, and has been bootstrap
 
   ```
   git init
-  1
+  heroku create $APP_NAME --buildpack https://github.com/mars/create-react-app-buildpack.git
   git add .
   git commit -m "Initial Commit"
   git push heroku master
