@@ -74,3 +74,7 @@ Many sample files have been included for easy modification.
 ## Notes
 
 - `styled-components` is used for CSS management.  More information can be found [Here](https://github.com/styled-components/styled-components)
+
+## Todos
+
+- [ ] Add a bash script
