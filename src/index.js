@@ -8,5 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const root = document.querySelector('#root');
   const store = configureStore();
 
+  if (process.env.NODE_ENV !== 'production') {
+    window.store = store;
+  }
+
   render(<Root store={store}/>, root);
 });
