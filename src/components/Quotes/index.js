@@ -1,8 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { fetchData } from '../../actions/dataActions'
-
-import Data from './Data'
+import './index.css'
 
 class DataContainer extends React.Component {
   constructor(props) {
@@ -19,9 +18,13 @@ class DataContainer extends React.Component {
   }
 
   render() {
+    const quotes = this.props.quotes.map((quote, i) =>
+      <h4 key={i}>{quote}</h4>
+    )
+
     return (
       <div>
-        { this.state.dataLoaded ? <Data quotes={this.props.quotes} /> : '' }
+        { this.state.dataLoaded ? quotes : '' }
       </div>
     )
   }
