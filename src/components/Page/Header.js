@@ -1,5 +1,5 @@
-import React from 'react';
-import logo from '../../assets/logo.svg';
+import React from 'react'
+import logo from '../../assets/logo.svg'
 
 const Header = () => {
   return (
@@ -7,7 +7,7 @@ const Header = () => {
       <img src={logo} className="AppLogo" alt="logo" />
       <h1>React/Redux Boilerplate</h1>
     </div>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

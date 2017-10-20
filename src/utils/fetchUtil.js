@@ -1,3 +1,3 @@
 export const fetchJSON = (path) => {
-  return fetch(path).then((res) => res.json());
-};
+  return fetch(path).then((res) => res.json())
+}
